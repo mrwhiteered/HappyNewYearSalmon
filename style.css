@@ -80,14 +80,17 @@ select {
 
 /* Лосося*/
 
-
+body{
+  background: linear-gradient(#123, #111);
+}
 .container{
-  margin-top: 200px;
+  margin-top: 100px;
   width: min(100% - 2rem, 600px);
   margin-inline: auto;
   
 }
 
+  
 
 .salmon {
   width: min(100% - 2rem, 600px);
@@ -112,10 +115,15 @@ width: min(100% - 2rem, 600px);
   width: min(100% - 2rem, 600px);
   margin-inline: auto;
   text-align: center;
+  z-index: 60;
+  margin-top: 20px;
+  border: 2px solid salmon;
+  border-radius: 20%;
+  
 }
 .download{
   text-transform: uppercase;
-  color: rgb(196, 85, 11);
+  color: salmon;
 list-style: none;
 text-decoration: none;
 font-weight: bolder;
@@ -124,6 +132,7 @@ border-radius: 10px;
 padding: 10px;
 margin-bottom: 50px;
 margin: 0 auto;
+z-index: 999999999;
 }
 .download:hover{
   color: rgb(167, 31, 13);
