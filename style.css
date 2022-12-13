@@ -118,12 +118,13 @@ width: min(100% - 2rem, 600px);
   z-index: 60;
   margin-top: 20px;
   border: 2px solid salmon;
+  background-color: salmon;
   border-radius: 20%;
   
 }
 .download{
   text-transform: uppercase;
-  color: salmon;
+  color: black;
 list-style: none;
 text-decoration: none;
 font-weight: bolder;

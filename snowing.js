@@ -57,7 +57,7 @@ function initsnow() {
         snow[i].size=randommaker(snowsizerange)+snowminsize
         snow[i].style.fontSize=snow[i].size+'px';
         snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
-        snow[i].style.zIndex=1
+        snow[i].style.zIndex=-2
         snow[i].sink=sinkspeed*snow[i].size/5
         if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
         if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
