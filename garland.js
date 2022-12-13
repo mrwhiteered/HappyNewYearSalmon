@@ -108,5 +108,5 @@ function garland(onlyFill){
     }
     setInterval(function(onlyFill) {
         garland(onlyFill)
-    }, 200);
+    }, 1000);
 
