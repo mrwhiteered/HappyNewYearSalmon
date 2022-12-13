@@ -1,7 +1,7 @@
 .lights{
     width: 30px;
     transform: rotate(15deg);
-    filter: drop-shadow(1px 1px 10px red);
+   
     height: 100%;
     
 }
@@ -10,23 +10,23 @@
     justify-content: space-around;
 }
 
-.l1{
+#fon1{
     transform: rotate(-15deg);
     filter: drop-shadow(1px 1px 10px red);
 }
-.l2{
+#fon2{
     transform: rotate(10deg);
     filter: drop-shadow(1px 1px 10px rgb(179, 255, 0)); 
 }
-.l3{
+#fon3{
     transform: rotate(-10deg);
     filter: drop-shadow(1px 1px 10px rgb(150, 1, 142));
 }
-.l4{
+#fon4{
     transform: rotate(15deg);
     filter: drop-shadow(1px 1px 10px rgb(25, 0, 255)); 
 }
-.l5{
+#fon5{
     transform: rotate(-15deg);
     filter: drop-shadow(1px 1px 10px rgb(0, 255, 21)); 
 }
