@@ -12,28 +12,27 @@
 
 #fon1{
     transform: rotate(-15deg);
-    /* filter: drop-shadow(1px 1px 10px red); */
+    filter: drop-shadow(1px 1px 10px red);
 }
 #fon2{
     transform: rotate(10deg);
-    /* filter: drop-shadow(1px 1px 10px rgb(179, 255, 0));  */
+    filter: drop-shadow(1px 1px 10px rgb(179, 255, 0)); 
 }
 #fon3{
     transform: rotate(-10deg);
-    /* filter: drop-shadow(1px 1px 10px rgb(150, 1, 142)); */
+    filter: drop-shadow(1px 1px 10px rgb(150, 1, 142));
 }
 #fon4{
     transform: rotate(15deg);
-    /* filter: drop-shadow(1px 1px 10px rgb(25, 0, 255));  */
+    filter: drop-shadow(1px 1px 10px rgb(25, 0, 255)); 
 }
 #fon5{
     transform: rotate(-15deg);
-    /* filter: drop-shadow(1px 1px 10px rgb(0, 255, 21));  */
+    filter: drop-shadow(1px 1px 10px rgb(0, 255, 21)); 
 }
- #path1{
+#path1{
     fill:rgb(255, 0, 0);
 }
-/*
 #path2{
     fill:rgb(229, 255, 0);
 }
@@ -45,4 +44,4 @@
 }
 #path5{
     fill:rgb(0, 255, 13);
-} */
+}
