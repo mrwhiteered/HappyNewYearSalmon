@@ -3,11 +3,14 @@
     transform: rotate(15deg);
    
     height: 100%;
+  
+ 
     
 }
 .conteiner_lights{
     display: flex;
     justify-content: space-around;
+    padding: 0 12px 12px 12px ;
 }
 
 #fon1{
