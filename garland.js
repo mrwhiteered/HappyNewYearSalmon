@@ -4,15 +4,15 @@ function garland(onlyFill){
 
 
     // Достаем элементы с HTML
-        let changeFill = document.getElementById('path1');
+        //let changeFill = document.getElementById('path1');
         let changeFilter = document.getElementById('fon1');
-        let changeFill2 = document.getElementById('path2');
+        //let changeFill2 = document.getElementById('path2');
         let changeFilter2 = document.getElementById('fon2');
-        let changeFill3 = document.getElementById('path3');
+        //let changeFill3 = document.getElementById('path3');
         let changeFilter3 = document.getElementById('fon3');
-        let changeFill4 = document.getElementById('path4');
+        //let changeFill4 = document.getElementById('path4');
         let changeFilter4 = document.getElementById('fon4');
-        let changeFill5 = document.getElementById('path5');
+        //let changeFill5 = document.getElementById('path5');
         let changeFilter5 = document.getElementById('fon5');
     
     

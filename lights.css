@@ -12,7 +12,7 @@
 
 #fon1{
     transform: rotate(-15deg);
-    filter: drop-shadow(1px 1px 10px red);
+    /* filter: drop-shadow(1px 1px 10px red); */
 }
 #fon2{
     transform: rotate(10deg);
