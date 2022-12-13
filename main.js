@@ -1,22 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function perebor () {
     let changeFill = document.getElementById('path1');
     let changeFill2 = document.getElementById('path2');
