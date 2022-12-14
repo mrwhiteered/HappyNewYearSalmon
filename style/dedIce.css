@@ -7,6 +7,7 @@ body{
 }
 .wrapper{
     min-height: calc(100vh - 150px);
+    
 }
 .dedushka{
     margin-inline: auto;
@@ -27,6 +28,7 @@ body{
     height: 100px;
     display: flex;
     justify-content: space-around;
+    
 }
 #ded1{
     transform: rotate(35deg);
