@@ -15,14 +15,14 @@ body{
     animation:dedlight;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    height: 100px;
+    
 }
 .dedushka2{
     margin-inline: auto;
     animation:dedlight2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    height: 100px;
+    
     
 }
 
@@ -30,19 +30,12 @@ body{
     margin-inline: auto;
     width: min(100% - 2rem, 600px);
     margin-top: 5px;
-    
-    
-    
-}
-.footer-ul{
     display: flex;
     justify-content: space-around;
+    height: 100px;
     
 }
-.footer-li{
-   
-    height: 100px;
-}
+
 #ded1{
     transform: rotate(20deg);
 }
