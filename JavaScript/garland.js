@@ -1,12 +1,3 @@
-const f = 'b' + 'a'
-console.log(f);
-const word = + + 'a'
-console.log(typeof word)
-console.log( word)
-
-
-
-
 
 function garland(onlyFill){
 

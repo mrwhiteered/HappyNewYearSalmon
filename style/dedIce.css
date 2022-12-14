@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+}
+.wrapper{
+    min-height: calc(100vh - 150px);
+}
+.dedushka{
+    margin-inline: auto;
+    animation:dedlight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.dedushka2{
+    margin-inline: auto;
+    animation:dedlight2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.footer{
+    margin-inline: auto;
+    width: min(100% - 2rem, 600px);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#ded1{
+    transform: rotate(35deg);
+}
+#ded3{
+    transform: rotate(-35deg);
+    
+}
+
+@keyframes dedlight{
+    0%{
+filter:drop-shadow(1px 1px 20px red)
+    }
+    50%{
+        filter:drop-shadow(1px 1px 20px green)
+    }
+    100%{
+        filter:drop-shadow(1px 1px 20px red)
+    }
+}
+@keyframes dedlight2{
+    0%{
+filter:drop-shadow(1px 1px 20px green)
+    }
+    50%{
+        filter:drop-shadow(1px 1px 20px red)
+    }
+    100%{
+        filter:drop-shadow(1px 1px 20px green)
+    }
+}
