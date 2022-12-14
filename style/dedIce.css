@@ -6,7 +6,8 @@ body{
     min-height: 100%;
 }
 .wrapper{
-    min-height: calc(100vh - 150px);
+    min-height: calc(100vh - 200px);
+    
     
 }
 .dedushka{
@@ -14,27 +15,39 @@ body{
     animation:dedlight;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    height: 100px;
 }
 .dedushka2{
     margin-inline: auto;
     animation:dedlight2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    height: 100px;
+    
 }
 
 .footer{
     margin-inline: auto;
     width: min(100% - 2rem, 600px);
-    height: 100px;
+    margin-top: 5px;
+    
+    
+    
+}
+.footer-ul{
     display: flex;
     justify-content: space-around;
     
 }
+.footer-li{
+   
+    height: 100px;
+}
 #ded1{
-    transform: rotate(35deg);
+    transform: rotate(20deg);
 }
 #ded3{
-    transform: rotate(-35deg);
+    transform: rotate(-20deg);
     
 }
 
