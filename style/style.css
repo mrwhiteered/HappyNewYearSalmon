@@ -129,11 +129,10 @@ width: min(100% - 2rem, 600px);
   z-index: 2;
 }
 .lososik{
-  width: min(100% - 2rem, 600px);
-  margin-inline: auto;
+  
   text-align: center;
   z-index: 60;
-  margin-top: 20px;
+  margin-top: 50px;
   
   
   
@@ -145,7 +144,8 @@ animation-iteration-count: infinite;
   
 }
 .download{
-
+margin-top: 50%;
+margin-right: 50%;
   color: red;
 list-style: none;
 text-decoration: none;
@@ -166,4 +166,21 @@ line-height: 25px;
 }
 .download:hover{
   filter:drop-shadow(1px 1px 20px red);
+}
+@media screen and (max-width: 370px) {
+  .download{
+    font-size: 24px;
+  }
+  .snowIcon{
+    width: 50px;
+  }
+  .l1{
+    display: none;
+  }
+}
+@media screen and (max-width: 310px) {
+  .l2{
+    display: none;
+  }
+  
 }
