@@ -28,83 +28,83 @@ function garland(onlyFill){
        // console.log(makeString);
     
        
-        if (makeString === '"rgb(255, 0, 0)"'){ //красный на желтый 
+        if (makeString === '"rgb(220, 20, 60)"'){ //красный на желтый 
             
-            changeFill.style.fill  = "yellow";
-           changeFilter.style.filter = "drop-shadow(1px 1px 10px yellow)";
-            changeFill2.style.fill  = "purple";
-           changeFilter2.style.filter = "drop-shadow(1px 1px 10px purple)";
-            changeFill3.style.fill  = "blue";
-           changeFilter3.style.filter = "drop-shadow(1px 1px 10px blue)";
-            changeFill4.style.fill  = "rgb(0, 255, 0)";
-           changeFilter4.style.filter = "drop-shadow(1px 1px 10px rgb(0, 255, 0))";
-            changeFill5.style.fill  = "red";
-           changeFilter5.style.filter = "drop-shadow(1px 1px 10px red)";
+            changeFill.style.fill  = "DarkOrange";
+           changeFilter.style.filter = "drop-shadow(1px 1px 10px DarkOrange)";
+            changeFill2.style.fill  = "Violet";
+           changeFilter2.style.filter = "drop-shadow(1px 1px 10px Violet)";
+            changeFill3.style.fill  = "RoyalBlue";
+           changeFilter3.style.filter = "drop-shadow(1px 1px 10px RoyalBlue)";
+            changeFill4.style.fill  = "MediumSpringGreen";
+           changeFilter4.style.filter = "drop-shadow(1px 1px 10px MediumSpringGreen)";
+            changeFill5.style.fill  = "Crimson";
+           changeFilter5.style.filter = "drop-shadow(1px 1px 10px Crimson)";
 
         }  
-        if  (makeString ==='"rgb(255, 255, 0)"') // желтый на фиолетовый 
+        if  (makeString ==='"rgb(255, 140, 0)"') // желтый на фиолетовый 
         {
-            changeFill5.style.fill  = "yellow";
-           changeFilter5.style.filter = "drop-shadow(1px 1px 10px yellow)";
-            changeFill.style.fill  = "purple";
-           changeFilter.style.filter = "drop-shadow(1px 1px 10px purple)";
-            changeFill2.style.fill  = "blue";
-           changeFilter2.style.filter = "drop-shadow(1px 1px 10px blue)";
-            changeFill3.style.fill  = "rgb(0, 255, 0)";
-           changeFilter3.style.filter = "drop-shadow(1px 1px 10px rgb(0, 255, 0))";
-            changeFill4.style.fill  = "red";
-           changeFilter4.style.filter = "drop-shadow(1px 1px 10px red)";
+            changeFill5.style.fill  = "DarkOrange";
+           changeFilter5.style.filter = "drop-shadow(1px 1px 10px DarkOrange)";
+            changeFill.style.fill  = "Violet";
+           changeFilter.style.filter = "drop-shadow(1px 1px 10px Violet)";
+            changeFill2.style.fill  = "RoyalBlue";
+           changeFilter2.style.filter = "drop-shadow(1px 1px 10px RoyalBlue)";
+            changeFill3.style.fill  = "MediumSpringGreen";
+           changeFilter3.style.filter = "drop-shadow(1px 1px 10px MediumSpringGreen)";
+            changeFill4.style.fill  = "Crimson";
+           changeFilter4.style.filter = "drop-shadow(1px 1px 10px Crimson)";
         } 
-        if (makeString === '"rgb(128, 0, 128)"') // фиолетовый в синий 
+        if (makeString === '"rgb(238, 130, 238)"') // фиолетовый в синий 
         {
-            changeFill4.style.fill  = "yellow";
-           changeFilter4.style.filter = "drop-shadow(1px 1px 10px yellow)";
+            changeFill4.style.fill  = "DarkOrange";
+           changeFilter4.style.filter = "drop-shadow(1px 1px 10px DarkOrange)";
 
-            changeFill5.style.fill  = "purple";
-           changeFilter5.style.filter = "drop-shadow(1px 1px 10px purple)";
+            changeFill5.style.fill  = "Violet";
+           changeFilter5.style.filter = "drop-shadow(1px 1px 10px Violet)";
 
-            changeFill.style.fill  = "blue";
-           changeFilter.style.filter = "drop-shadow(1px 1px 10px blue)";
+            changeFill.style.fill  = "RoyalBlue";
+           changeFilter.style.filter = "drop-shadow(1px 1px 10px RoyalBlue)";
 
-            changeFill2.style.fill  = "rgb(0, 255, 0)";
-           changeFilter2.style.filter = "drop-shadow(1px 1px 10px rgb(0, 255, 0))";
+            changeFill2.style.fill  = "MediumSpringGreen";
+           changeFilter2.style.filter = "drop-shadow(1px 1px 10px MediumSpringGreen)";
 
-            changeFill3.style.fill  = "red";
-           changeFilter3.style.filter = "drop-shadow(1px 1px 10px red)";
+            changeFill3.style.fill  = "Crimson";
+           changeFilter3.style.filter = "drop-shadow(1px 1px 10px Crimson)";
         }
-        if (makeString === '"rgb(0, 0, 255)"') // синий в зеленый 
+        if (makeString === '"rgb(65, 105, 225)"') // синий в зеленый 
         {
-            changeFill3.style.fill  = "yellow";
-           changeFilter3.style.filter = "drop-shadow(1px 1px 10px yellow)";
+            changeFill3.style.fill  = "DarkOrange";
+           changeFilter3.style.filter = "drop-shadow(1px 1px 10px DarkOrange)";
 
-            changeFill4.style.fill  = "purple";
-           changeFilter4.style.filter = "drop-shadow(1px 1px 10px purple)";
+            changeFill4.style.fill  = "Violet";
+           changeFilter4.style.filter = "drop-shadow(1px 1px 10px Violet)";
 
-            changeFill5.style.fill  = "blue";
-           changeFilter5.style.filter = "drop-shadow(1px 1px 10px blue)";
+            changeFill5.style.fill  = "RoyalBlue";
+           changeFilter5.style.filter = "drop-shadow(1px 1px 10px RoyalBlue)";
 
-            changeFill.style.fill  = "rgb(0, 255, 0)";
-           changeFilter.style.filter = "drop-shadow(1px 1px 10px rgb(0, 255, 0))";
+            changeFill.style.fill  = "MediumSpringGreen";
+           changeFilter.style.filter = "drop-shadow(1px 1px 10px MediumSpringGreen)";
 
-            changeFill2.style.fill  = "red";
-           changeFilter2.style.filter = "drop-shadow(1px 1px 10px red)";
+            changeFill2.style.fill  = "Crimson";
+           changeFilter2.style.filter = "drop-shadow(1px 1px 10px Crimson)";
         }
-        if (makeString === '"rgb(0, 255, 0)"')
+        if (makeString === '"rgb(0, 250, 154)"') 
         {
-            changeFill2.style.fill  = "yellow";
-           changeFilter2.style.filter = "drop-shadow(1px 1px 10px yellow)";
+            changeFill2.style.fill  = "DarkOrange";
+           changeFilter2.style.filter = "drop-shadow(1px 1px 10px DarkOrange)";
 
-            changeFill3.style.fill  = "purple";
-           changeFilter3.style.filter = "drop-shadow(1px 1px 10px purple)";
+            changeFill3.style.fill  = "Violet";
+           changeFilter3.style.filter = "drop-shadow(1px 1px 10px Violet)";
 
-            changeFill4.style.fill  = "blue";
-           changeFilter4.style.filter = "drop-shadow(1px 1px 10px blue)";
+            changeFill4.style.fill  = "RoyalBlue";
+           changeFilter4.style.filter = "drop-shadow(1px 1px 10px RoyalBlue)";
 
-            changeFill5.style.fill  = "rgb(0, 255, 0)";
-           changeFilter5.style.filter = "drop-shadow(1px 1px 10px rgb(0, 255, 0))";
+            changeFill5.style.fill  = "MediumSpringGreen";
+           changeFilter5.style.filter = "drop-shadow(1px 1px 10px MediumSpringGreen)";
 
-            changeFill.style.fill  = "red";
-           changeFilter.style.filter = "drop-shadow(1px 1px 10px red)";
+            changeFill.style.fill  = "Crimson";
+           changeFilter.style.filter = "drop-shadow(1px 1px 10px Crimson)";
             }
     }
     setInterval(function(onlyFill) {

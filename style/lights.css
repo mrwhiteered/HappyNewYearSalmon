@@ -1,5 +1,7 @@
 .lights{
+
     width: 50px;
+    min-width: 20px;
     transform: rotate(15deg);
    padding: 0 20px 20px 20px;
     height: 100%;
@@ -35,7 +37,7 @@
     
 }
 #path1{
-    fill:rgb(255, 0, 0);
+    fill:rgb(220, 20, 60);
     padding: 100px;
 }
  #path2{
