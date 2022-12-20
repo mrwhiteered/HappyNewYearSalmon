@@ -79,11 +79,26 @@ html, body {
   overflow-x: hidden;
 }
 
+/* Подключаем шрифты */
+
+@font-face {
+  font-family: 'Marck Script', cursive;
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Marck Script"),     
+       url("/fonts/MarckScript-Regular.woff") format("woff"),
+       url("/fonts/MarckScript-Regular.woff") format("woff2");       
+}
+
+
+
+
 
 /* Лосося*/
 
 body{
-  background: linear-gradient(#123, #111);
+  background: linear-gradient(#bdd8c5,#bdd8c5);
 }
 .container{
   margin-top: 100px;
@@ -120,7 +135,7 @@ width: min(100% - 2rem, 600px);
   z-index: 60;
   margin-top: 20px;
   
-  background-color: salmon;
+  
   
   animation: changrBorder;
 animation-duration: 1s;
@@ -130,40 +145,25 @@ animation-iteration-count: infinite;
   
 }
 .download{
-  text-transform: uppercase;
-  color: black;
+
+  color: red;
 list-style: none;
 text-decoration: none;
 font-weight: bolder;
 font-size: 34px;
-
+/* font-family: 'Caveat', cursive;
+font-family: 'Lobster', cursive; */
+font-family: 'Marck Script', cursive;
+/* font-family: 'Pacifico', cursive;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Rubik Gemstones', cursive; */
 padding: 10px;
 margin-bottom: 50px;
 margin: 0 auto;
 z-index: 999999999;
+line-height: 25px;
 
 }
 .download:hover{
-  color: rgb(167, 31, 13);
-  background-color: rgba(137, 43, 226, 0.336);
-}
-
-@keyframes changrBorder{
-  0%{
-    border: 2px solid red;
-    filter:drop-shadow(1px 1px 20px red)
-    
-   
-  }
- 
-  50%{
-    border: 2px solid green;
-    filter:drop-shadow(1px 1px 20px green)
-  }
-  100%{
-    border: 2px solid red;
-    filter:drop-shadow(1px 1px 20px red)
-  }
- 
-
+  filter:drop-shadow(1px 1px 20px red);
 }

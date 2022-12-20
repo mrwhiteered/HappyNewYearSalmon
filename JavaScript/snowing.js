@@ -8,19 +8,19 @@
 let snowmax=40
  
 // Цвета для снежинок. Для каждой конкретной снежинки цвет выбирается случайно из этого массива.
-let snowcolor=new Array("#b9dff5","#7fc7ff","#7fb1ff","salmon","#b9dff5", "white")
+let snowcolor=new Array( "white")
  
 // Шрифт для снежинок
 let snowtype=new Array("Times")
  
 // Символ (*) и есть снежинка, в место нее можно вставить любой другой символ.
-let snowletter="&#10052;"
+let snowletter="&#10036;"
  
 // Скорость движения снежинок (от 0.3 до 2)
 let sinkspeed=0.4
  
 // Максимальный размер для снежинок
-let snowmaxsize=40
+let snowmaxsize=20
  
 // Минимальный размер для снежинок
 let snowminsize=10

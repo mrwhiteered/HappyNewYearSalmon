@@ -1,15 +1,11 @@
 
   .snw3{
-    filter:
-   drop-shadow(5px 5px 10px rgba(30, 245, 30))
-   drop-shadow(-5px -5px 5px red) ;
+   filter:drop-shadow(5px 5px 10px #ebdf77)
+   
   }
   
   
-  .snw1{
-    filter:drop-shadow(-5px -5px 10px red) 
-    drop-shadow(5px 5px 10px rgb(23, 255, 23)) ;
-  }
+ 
   .snowIcon {
     margin: 0 auto;
     z-index: 1;
