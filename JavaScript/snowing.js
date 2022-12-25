@@ -14,13 +14,13 @@ let snowcolor=new Array( "white")
 let snowtype=new Array("Times")
  
 // Символ (*) и есть снежинка, в место нее можно вставить любой другой символ.
-let snowletter="&#9731;"
+let snowletter="*"
  
 // Скорость движения снежинок (от 0.3 до 2)
 let sinkspeed=0.4
  
 // Максимальный размер для снежинок
-let snowmaxsize=20
+let snowmaxsize=40
  
 // Минимальный размер для снежинок
 let snowminsize=10
