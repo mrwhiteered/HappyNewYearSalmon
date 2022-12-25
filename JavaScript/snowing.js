@@ -14,7 +14,7 @@ let snowcolor=new Array( "white")
 let snowtype=new Array("Times")
  
 // Символ (*) и есть снежинка, в место нее можно вставить любой другой символ.
-let snowletter="&#9913;"
+let snowletter="&#10052;"
  
 // Скорость движения снежинок (от 0.3 до 2)
 let sinkspeed=0.4
