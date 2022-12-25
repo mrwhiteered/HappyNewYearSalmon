@@ -98,7 +98,7 @@ html, body {
 /* Лосося*/
 
 body{
-  background: linear-gradient(#bdd8c5,#5fc77e) no-repeat;
+  background: #fff1dc;
 }
 .container{
   margin-top: 100px;
@@ -146,7 +146,7 @@ animation-iteration-count: infinite;
 .download{
 margin-top: 50%;
 margin-right: 50%;
-  color: red;
+  color: rgb(220, 20, 60);
 list-style: none;
 text-decoration: none;
 font-weight: bolder;
