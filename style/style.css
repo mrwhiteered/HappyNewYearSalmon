@@ -164,7 +164,7 @@ z-index: 999999999;
 line-height: 25px;
 
 }
-.download:hover{
+.download{
   filter:drop-shadow(1px 1px 20px red);
 }
 @media screen and (max-width: 370px) {
