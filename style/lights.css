@@ -4,6 +4,7 @@
     min-width: 20px;
     transform: rotate(15deg);
    padding: 0 20px 20px 20px;
+   margin: 0 20px 20px 20px;
     height: 100%;
   
  
@@ -18,6 +19,7 @@
 
 #fon1{
     transform: rotate(-15deg);
+    filter: drop-shadow(rgb(220, 20, 60));
     
 }
 #fon2{
@@ -26,7 +28,7 @@
 }
 #fon3{
     transform: rotate(-10deg);
-   
+    filter: drop-shadow(rgb(220, 20, 60));
 }
 #fon4{
     transform: rotate(15deg);
@@ -34,21 +36,26 @@
 }
 #fon5{
     transform: rotate(-15deg);
-    
+    filter: drop-shadow(rgb(220, 20, 60));
 }
 #path1{
     fill:rgb(220, 20, 60);
     padding: 100px;
+    
 }
  #path2{
     fill:rgb(229, 255, 0);
+    filter: drop-shadow(MediumSpringGreen);
 }
 #path3{
     fill:rgb(145, 1, 133);
+    filter: drop-shadow(rgb(220, 20, 60));
 }
 #path4{
     fill:rgb(68, 0, 255);
+    filter: drop-shadow(MediumSpringGreen);
 }
 #path5{
     fill:rgb(0, 255, 13);
+    filter: drop-shadow(rgb(220, 20, 60));
 } 
